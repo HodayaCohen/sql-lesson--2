@@ -1,5 +1,27 @@
 # SQL Lesson 2 &amp; Mission 2
 
+- [SQL Lesson 2 &amp; Mission 2](#sql-lesson-2--amp--mission-2)
+  * [What we have learned](#what-we-have-learned)
+    + [CRUD operations (Create, Read, Update &amp; Delete)](#crud-operations--create--read--update--amp--delete-)
+      - [Create: Insert statement](#create--insert-statement)
+      - [Read: Select statement](#read--select-statement)
+      - [Update: Select statement](#update--select-statement)
+      - [Update: Select statement](#update--select-statement-1)
+    + [Where clause](#where-clause)
+  * [Homework](#homework)
+    + [Insert new data](#insert-new-data)
+      - [`customers` table](#-customers--table)
+      - [`salesmans` table](#salesmans-table)
+      - [`purchases` table](#purchases-table)
+      - [`products` table](#products-table)
+    + [Results expected](#results-expected)
+      - [`customers` table](#-customers--table-1)
+      - [`Salesmans` table](#salesmans-table-1)
+      - [`Products` table](#products-table-1)
+  * [Solution](#solution)
+  * [Materials](#materials)
+    + [Links](#links)
+
 ## What we have learned
 ### CRUD operations (Create, Read, Update &amp; Delete)
 #### Create: Insert statement
@@ -39,7 +61,7 @@ Please save all the queries that you write in a file called `hw_queries.sql`
 (4, 'amy', 'winehouse', 'amy@example.com', 'london')
 ```
 
-#### Salesmans table
+#### `Salesmans` table
 ```sql
 (123, 'sman1', 'smanl_last', 'sman1@example.com', 'jerusalem', '2016-03-25')
 (234, 'sman2', 'sman2_last', 'sman2@example.com', 'tel aviv', '2016-03-25')
@@ -47,9 +69,9 @@ Please save all the queries that you write in a file called `hw_queries.sql`
 (456, 'sman4', 'sman4_last', 'sman4@example.com', 'haifa', '2016-03-25')
 ```
 
-#### Purchases table
+#### `Purchases` table
 
-#### Products table
+#### `Products` table
 ```sql 
 ('blank disc', 5)
 ('microphone', 599)
@@ -66,7 +88,7 @@ Please save all the queries that you write in a file called `hw_queries.sql`
 | 3               | rihanna       | fenty     | rihanna@example.com | saint michael |
 | 4               | amy           | winehouse | amy@example.com     | london        |
 
-#### Salesmans table
+#### `salesmans` table
 | social_security | first_name  | last_name  | email             | city       | start_of_work_date |
 | -------------   | ----------- |----------  | -------------     | ---------  | ---------------    |
 | 123             | sman1       | sman1_last | sman1@example.com | jerusalem  | 2016-03-25         |
@@ -74,7 +96,7 @@ Please save all the queries that you write in a file called `hw_queries.sql`
 | 345             | sman3       | sman3_last | sman3@example.com | afula      | 2013-02-12         |
 | 456             | sman4       | sman4_last | sman4@example.com | london     | 2012-08-29         |
 
-#### Products table
+#### `products` table
 | id  | name          | price  |
 | --- | ------------- |------- |
 | 1   | blank disc    | 5      |
